@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.choose{
+    background-color: #444;
+    width: 10%;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fruit{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fruit h4, button{
+    text-align: center;
+    background-color: green;
+}
+
+.foot{
+    background-color: green;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
